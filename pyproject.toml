@@ -1,6 +1,29 @@
 [project]
-name = "placeholder"
+name = "upgraded-adventure"
 version = "0.1"
+description = "null"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "null"}]
+license = "Apache-2.0"
+classifiers = []
+dependencies = [
+
+]
 
 [dependency-groups]
-dev = ["pytest"]
+dev = [
+    "pytest"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project.urls]
+Homepage = "https://github.com/JanaRoss-CropSwapLA/upgraded-adventure"
+Changelog = "https://github.com/JanaRoss-CropSwapLA/upgraded-adventure/releases"
+Issues = "https://github.com/JanaRoss-CropSwapLA/upgraded-adventure/issues"
+CI = "https://github.com/JanaRoss-CropSwapLA/upgraded-adventure/actions"
+
